@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Contato</title>
+</head>
+<body>
+    <!--header-->
+    <header style="background-image: url('img/backgroud-contato.jpg');">
+        <!--container-->
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo kiston.png" alt="logo kiston">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a href="contato.html">contatos</a>
+                    <a class="btn" href="https://teycol.github.io/tela-login-kiston/">login</a>                
+                    
+                    <div class="fechar-menu" onclick="closeMenu()">
+                        <i class="fa fa-times-circle" aria-hidden="true"></i>
+                    </div>
+                </ul>
+                <div class="icone-menu" onclick="openMenu()">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+
+
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Contato</h1>
+                    <p>Entre em contato com nossa equipe que eles irão retornar com maior agilidade para resolver seus problemas</p>
+                </div>
+            </section>
+        </div>
+        <!--fim container-->
+    </header>
+    <!--fim header-->
+
+   <section class="contato">
+        <div class="container">
+            <div class="contato-info">
+                <div class="esquerdo">
+                    <div>
+                        <i class="fa fa-map" aria-hidden="true"></i>
+                        <p>Av: Almirante Barroso, 300 - Quarenta, Campina Grande - PB, 58416-175</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p>kistonnet.xyz@gmail.com</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p>+55 83 91234-5678</p>
+                    </div>
+                </div>
+                <div class="direito">
+                    <form action="">
+                        <input type="text" placeholder="Nome" required>
+                        <input type="email" placeholder="E-mail" required>
+                        <input type="text" placeholder="Assunto" required>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+                        <button class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.061062994942!2d-35.89758772590609!3d-7.2338758710418825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ac1ff9ce1d968f%3A0x576271844a10d9db!2sHostSSD%20-%20Revenda%20de%20Hospedagem%20de%20Sites!5e0!3m2!1spt-PT!2sbr!4v1681941690825!5m2!1spt-PT!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+   </section>
+        <!--footer-->
+        <footer class="footer">
+            <div class="container">
+                <div class="elemento-footer">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li> <a href="">Quem Somos</a></li>
+                        <li> <a href="">Serviços</a></li>
+                        <li> <a href="">Politica de Privacidade</a></li>
+                        <li> <a href="">Programa de Afiliados</a></li>                   
+                    </ul>
+                </div>
+                <div class="elemento-footer">
+                    <h4>Obter Ajuda</h4>
+                    <ul>
+                        <li> <a href="">FAQ</a></li>
+                        <li> <a href="">Status de Pedido</a></li>
+                        <li> <a href="">Politica de Privacidade</a></li>
+                        <li> <a href="">Opções de Pagamento</a></li>                   
+                    </ul>
+                </div>
+                <div class="elemento-footer">
+                    <h4>Compras</h4>
+                    <ul>
+                        <li> <a href="">Dominio</a></li>
+                        <li> <a href="">WordPress</a></li>
+                        <li> <a href="">Hospedagem</a></li>
+                        <li> <a href="">Segurança de Sites</a></li>                   
+                    </ul>
+                </div>
+
+                
+                <div class="assinatura">
+                    <h4>Feito Por Teycol</h4>
+                    <div class="media-social">
+                        <a href="https://github.com/Teycol" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/glsilv.a/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/teycol/" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div
+                </div>
+            </div>
+        </footer>
+        <!--final footer-->
+    <script src="js/main.js"></script>
+</body>
+</html>
