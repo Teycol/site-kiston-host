@@ -264,8 +264,8 @@ nav .fechar-menu{
 }
 
 .footer .elemento-footer{
-    width: 25%;
-    padding: 0 15px;
+    
+    padding: 0 65px;
     
 }
 
@@ -274,7 +274,6 @@ nav .fechar-menu{
     color: white;
     margin-bottom: 20px;
     font-weight: 500;
-    position: relative;
     text-transform: uppercase;
 }
 
@@ -286,6 +285,7 @@ nav .fechar-menu{
     margin: 10px 0;
 }
 
+
 .elemento-footer a{
     font-size: 16px;
     text-transform: capitalize;
@@ -296,14 +296,14 @@ nav .fechar-menu{
 }
 
 .elemento-footer a:hover{
-    padding-left: 10px;
+    padding-top: 10px;
     color: #cecdcd;
 }
 
 .footer .assinatura h4{
+    
     font-size: 28px;
     color: white;
-    position: relative;
     justify-content: space-between;
     font-family: 'Lobster', cursive;
     
@@ -311,6 +311,7 @@ nav .fechar-menu{
 
 .assinatura{
     margin-top: 55px;
+    margin-left: 30px;
 
 }
 
@@ -570,6 +571,7 @@ nav .fechar-menu{
         right: 28px;
     }
 }
+
     /*fim Menu Mobile*/
 
 @media(max-width:1080px){
@@ -685,7 +687,7 @@ nav .fechar-menu{
 
 /*teste footer*/
 
-@media (max-width:800px) {
+@media (max-width:1078px) {
 
     .elemento-footer{
         width: 50%;
@@ -694,9 +696,15 @@ nav .fechar-menu{
     
 }
 
-@media (max-width:600px) {
+@media (max-width:687px) {
     .elemento-footer{
         width: 100%;
     }
 }
 
+@media (max-width:1178px){
+
+    .assinatura{
+        margin-left: 60px;
+    }    
+}
